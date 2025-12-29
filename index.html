@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trilha de CSS - DIO</title>
+  <style>
+  .module{color: whitesmoke;
+    border: solid black;
+  background: dimgrey;
+  width: 450px;
+  height:80px;
+  border-radius: 100px ;
+    margin: 30px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .banner{background-image: url(/assets/images/banner.png);
+    color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 450px;
+    width: 100%;
+  }
+  .logo{ margin-top: 100px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    margin: 10px;
+    
+    
+  }
+header h1{text-align: center;
+    color:dodgerblue;
+    display: flex;
+    justify-content: center;
+    }
+header  p{text-align: center;
+    color: ghostwhite;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  section,h2{color:dodgerblue}
+  section p{color: white;}
+  
+  span{color: dodgerblue}
+  
+  button{height: 60px;
+  width: 300px;
+  background-color: dimgrey;
+  border: solid black;
+    align-items: center;  
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  section{text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{background: linear-gradient(steelblue,darkslategrey,teal,navy) ;
+    min-height: 80vh;
+    display: grid;
+    flex-direction: column;
+    margin: 0;
+  }
+  main{flex-grow: 1;}
+  html{
+    min-height: 100%;
+    
+  }
+  footer{position: center;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+  }
+#transform-world{background-image: url(/assets/images/woman-code.png);background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  text-shadow: 1px 1px 1px black;
+  height: 200px;
+  text-align: left;
+  justify-content: left;
+  position: left;
+  font-size: 40px;
+  color: whitesmoke;
+  font: impact;
+}
+
+
+}
+#course-content{text-align: center;
+  display: grid;
+  justify-content: center;
+  position: center;
+}
+.dio-logo{height: 50px;
+  margin: 40px;
+}
+
+  
+    
+  
+    
+  </style>
+</head>
+<body>
+  <header class="banner">
+    <div class="banner-content">
+      <div class="logo">
+        <img src="assets/images/logo.png" title="Logotipo Trilha de CSS DIO" alt="Logotipo Trilha de CSS DIO">
+      </div>
+      <h1>Trilha de CSS da DIO</h1>
+      <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.</p>
+      <button>Quero me inscrever</button>
+    </div>
+  </header>
+  <main>
+    <section id="course-content">
+      <h2>O que vou aprender?</h2>
+      <p>
+        Temos 3 módulos recheados de conteúdos do básico ao avançado para que <br>você aprenda a 
+        desenvolver sites profissionais utilizando somente <br>HTML e CSS: sem nenhuma biblioteca ou framework a mais.
+      </p>
+      <div class="modules-list">
+        <div class="module">
+          <span>Módulo 01:</span> primeiros passos com CSS
+        </div>
+        <div class="module">
+          <span>Módulo 02:</span> trabalhando com layouts no CSS
+        </div>
+        <div class="module">
+          <span>Módulo 03:</span> refinando os estilos CSS das nossas páginas
+        </div>
+      </div>
+    </section>
+    <section id="transform-world">
+      <p>TRANSFORME O <br> MUNDO COM <br>A GENTE</p>
+    </section>
+    <section id="professional-challenges">
+      <h2>Evolua e encare novos desafios profissionais</h2>
+      <img src="assets/images/professional-challenges.png" title="Homem lendo depoimentos em um tablet" alt="Homem lendo depoimentos em um tablet">
+      <p>
+        Junte-se ao nosso ecossistema e transforme o mundo com a gente! <br>Todos os dias dezenas de empresas 
+        acessam a nossa plataforma em busca dos talentos <br>mais criativos, dinâmicos e colaborativos, 
+        além do conhecimento técnico. <br>A nossa missão é te preparar para que você conecte-se com as melhores oportunidades.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <img class="dio-logo" src="assets/images/dio-logo.png" title="Logotipo DIO com o texto make the change" alt="Logotipo DIO com o texto make the change">
+    <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
+  </footer>
+</body>
+</html>
