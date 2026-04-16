@@ -2,6 +2,7 @@
 
 ​Este projeto é uma Landing Page desenvolvida como parte dos desafios práticos da plataforma DIO (Digital Innovation One). O objetivo principal foi aplicar conceitos fundamentais e avançados de estilização com CSS puro, sem o uso de frameworks externos.
 ​
+
 🚀 Tecnologias Utilizadas
 ​HTML5: Estruturação semântica do conteúdo.
 ​CSS3: Estilização avançada, incluindo:
@@ -9,11 +10,14 @@
 ​Gradients: Uso de linear-gradient para fundos dinâmicos.
 ​Background Management: Manipulação de imagens de fundo com cover e center.
 ​Typography: Customização de fontes e sombras de texto (text-shadow).
+
+
 ​📋 Funcionalidades do Projeto
 ​Banner Principal: Cabeçalho com imagem de fundo responsiva e chamada para ação (CTA).
 ​Módulos de Aprendizado: Lista estilizada apresentando o cronograma do curso.
 ​Seção "Transforme o Mundo": Bloco com imagem de destaque e tipografia estilizada.
 ​Rodapé Institucional: Links úteis e logotipo da DIO.
+
 
 ​🛠️ Como rodar o projeto
 1.Clone este repositório:
@@ -27,6 +31,7 @@ git clone https://github.com/JucianaSoares/Meu-desafio-trilha-de-css-conclu-do
 ​/assets/images/dio-logo.png
 
 3.Abra o arquivo index.html em qualquer navegador.
+
 
 💡 Aprendizados
 ​Durante o desenvolvimento deste projeto, foquei em:
