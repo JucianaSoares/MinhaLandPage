@@ -33,4 +33,4 @@ git clone https://github.com/JucianaSoares/Meu-desafio-trilha-de-css-conclu-do
 ​Centralização de elementos utilizando margin: auto e display: flex.
 ​Trabalho com camadas e posicionamento relativo/absoluto.
 ​Criação de botões e cards com border-radius e efeitos visuais.
-​⭐ Desenvolvido por [Juciana Soarea] durante a jornada na DIO!
+​⭐ Desenvolvido por [Juciana Soares] durante a jornada na DIO!
