@@ -3,6 +3,25 @@
 ​Este projeto é uma Landing Page desenvolvida como parte dos desafios práticos da plataforma DIO (Digital Innovation One). O objetivo principal foi aplicar conceitos fundamentais e avançados de estilização com CSS puro, sem o uso de frameworks externos.
 ​
 
+📸 Demonstração Visual
+A estrutura do layout segue o modelo de blocos verticais, garantindo uma leitura fluida do conteúdo:
+┌──────────────────────────────────────────────────────────┐
+│                          <nav>                           │
+└──────────────────────────────────────────────────────────┘
+┌───────────┐ ┌────────────────────────────────────────────┐
+│           │ │                 <section>                  │
+│           │ │  ┌──────────────────────────────────────┐  │
+│  <aside>  │ │  │                                      │  │
+│           │ │  │               <article>              │  │
+│           │ │  │                                      │  │
+│           │ │  └──────────────────────────────────────┘  │
+└───────────┘ └────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────┐
+│                         <footer>                         │
+└──────────────────────────────────────────────────────────┘
+
+
+
 🚀 Tecnologias Utilizadas
 ​HTML5: Estruturação semântica do conteúdo.
 ​CSS3: Estilização avançada, incluindo:
