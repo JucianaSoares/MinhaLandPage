@@ -6,20 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trilha de CSS - DIO</title>
   <style>
-  .module{color: whitesmoke;
-    border: solid black;
-  background: dimgrey;
-  width: 450px;
-  height:80px;
-  border-radius: 100px ;
-    margin: 30px 20px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+
+/* Quando a tela for menor que 768px (celular e tablet) */
+@media (max-width: 768px) {
+  
+  /* 1. Faz o retângulo cinza se ajustar à largura do celular */
+  .module {
+    width: 90%;       /* Ocupa 90% da largura da tela */
+    height: auto;     /* Deixa a altura crescer se o texto for grande */
+    padding: 15px;    /* Espaço interno para o texto não encostar na borda */
+    border-radius: 20px; /* Arredondamento menor fica melhor no celular */
   }
+
+  /* 2. Ajusta o texto do cabeçalho que deve estar muito grande */
+  header h1 {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  header p {
+    font-size: 14px;
+    padding: 0 20px;
+    height: auto; /* Tira o limite de altura para o texto poder quebrar linha */
+  }
+
+  /* 3. Ajusta a imagem do "Transforme o Mundo" */
+  #transform-world {
+    font-size: 25px; /* Diminui a letra gigante */
+    height: auto;
+  }
+
+  /* 4. Garante que qualquer imagem no site não ultrapasse o limite da tela */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 5. Ajusta o botão para não ficar maior que a tela */
+  button {
+    width: 80%;
+  }
+}
+
   .banner{background-image: url(/assets/images/banner.png);
     color: black;
     background-position: center;
